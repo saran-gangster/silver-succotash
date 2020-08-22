@@ -1,5 +1,6 @@
 from __future__ import print_function
-
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 import numpy as np
 import tensorflow as tf
 
